@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Creación de pagina eCommerce con MERN Stack",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "MERN",
+    "NodeJs",
+    "Express"
+  ],
+  "author": "Lukas Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.32.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fs-extra": "^10.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.7",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
